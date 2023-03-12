@@ -1,0 +1,108 @@
+/* index design */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: url("images/library.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Shantell Sans', cursive;
+    
+}
+
+.container,
+.row,
+.h2 {
+    text-align: center;
+}
+
+.login-container {
+    /* margin-top: 5%;
+    margin-bottom: 5%; */
+    background: rgba(0, 0, 0, 0.25);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        backdrop-filter: blur(4px);
+        -webkit-backdrop-filter: blur(4px);
+        border-radius: 10px;
+        border: 1px solid rgba(0, 0, 0, 0.18);
+}
+
+.login-form-1 {
+    padding: 5%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+
+.login-form-1 h3 {
+    text-align: center;
+    color: #fff;
+}
+
+.login-form-2 {
+    padding: 5%;
+    background: rgb(168, 236, 8);
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+    /* background: rgba(255, 255, 255, 0.25); */
+        box-shadow: 0 8px 32px 0 rgba(225, 255, 52, 0.911);
+        backdrop-filter: blur(4px);
+        -webkit-backdrop-filter: blur(7px);
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.login-form-2 h3 {
+    text-align: center;
+    color: #fff;
+}
+
+.login-container form {
+    padding: 10%;
+}
+
+.btnSubmit {
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    border: none;
+    cursor: pointer;
+}
+
+.login-form-1 .btnSubmit {
+    font-weight: 600;
+    color: #fff;
+    background-color: #d4f70e;
+}
+
+.login-form-2 .btnSubmit {
+    font-weight: 600;
+    color: #e73017;
+    background-color: #fff;
+}
+
+.login-form-2 .ForgetPwd {
+    color: #1dd2ff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.login-form-1 .ForgetPwd {
+    color: #082e57;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+/* Dashboard Design */
